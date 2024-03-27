@@ -28,5 +28,8 @@ public class SecurityService {
 
         //stampo il risultato
         System.out.println(presentInTheList ? "Sei in lista, benvenuto!" : "Mi dispiace, non sei in lista.");
+
+        // chiudo lo scanner
+        scan.close();
     }
 }
